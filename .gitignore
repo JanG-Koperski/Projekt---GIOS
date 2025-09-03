@@ -1,0 +1,42 @@
+.venv/
+__pycache__/
+polair.db
+*.pyc
+*.png
+*.html
+# --- Python ---
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+.Python
+.venv/
+.env
+*.sqlite3
+
+# --- Unit test / coverage ---
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+.nox/
+.cache/
+
+# --- Jupyter Notebook ---
+.ipynb_checkpoints
+
+# --- VSCode ---
+.vscode/
+*.code-workspace
+
+# --- PyCharm / IntelliJ IDEA ---
+.idea/
+
+# --- System ---
+.DS_Store
+Thumbs.db
