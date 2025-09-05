@@ -1,0 +1,15 @@
+1. Aby uruchomić aplikację należy włączyć plik "run_app.bat"
+po zainstalowaniu wtyczek - aplikacja powinna się uruchomić
+ - pobierz stacje (REST) - pobiera listę stacji
+ - filtruj z bazy - filtrowanie po tekście wpisanym w pole "Miasto:"
+ - mapa - punkty pobrane zaznaczone są na mapie - działa również po odfiltrowaniu
+ - zapisz stacje do bazy - zapisuje stacje do lokalnej bazy SQLite
+ - pobierz czujniki stacji - pobiera czujniki z zaznaczonej stacji
+ 	- pomiary (REST) - pobiera dane pomiarowe i indeks powietrza zaznaczonego czujnika
+		- jeśli pojawi się informacja "brak wartości - należy skorzystać z archiwum" wtedy dane zostaną pobrane z 5 tygodniowego 			archiwum (REST) - jeśli informacja znów się pojawi - wtedy dane zostaną pobranego z 9 tygodniowego archiwum ( gdyż 			w tym 5 tygodniowym nie było danych)
+	- wykres - pokazuje wyniki czujników na wykresie
+	- analiza - pokazuje dane MIN, MAX i średnią z danych pomiarowych
+	- zapisz pomiary do bazy - zapisuje pomiary w lokalnej bazie SQL
+- zakładka "stacje" pozwoli na powrót do listy stacji i wybranie kolejnej pozycji
+
+2. Plik "Testy.bat" służy do testów jednostkowych
